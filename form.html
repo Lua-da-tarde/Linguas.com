@@ -1,0 +1,75 @@
+<html>
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Linguas.com </title>
+	</head>
+
+	<body style="background-color: slategray; color: antiquewhite;">
+        <form>
+            <fieldset>
+                <legend><h2>Dados pessoais</h2></legend>
+                
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome" id="nome" size="50" required>
+
+                <br><br>
+                 <label for="dataNasc">Data de Nascimento:</label><br>
+                <input type="date" id="dataNasc" name="dataNasc" required>
+
+                <br><br>
+                <label for="telefone">Telefone para contato:</label><br>
+                <input type="telefone" name="telefone" id="telefone" size="15" required>
+            
+                <br><br>
+                <label for="email">E-mail:</label><br>  
+                <input type="email" id="email" name="email" required> 
+
+                <br><br>
+                <label for="senha">Senha:</label><br>
+                <input type="password" placeholder="Digite sua senha" name="senha" id="senha" minlength="8" required>    
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><h2>Dados sobre o curso</h2></legend>
+                 
+                <label for="horario">Horario:</label><br>
+                Manhã <input type="radio" name="horario" value="Manha">
+                Tarde <input type="radio" name="horario" value="Tarde">
+                Noite <input type="radio" name="horario" value="Noite">
+
+                <br><br> 
+                <label for="tipo">Será presencial</label><br>
+                Sim <input type="radio" name="tipo" value="Sim">
+                Não <input type="radio" name="tpo" value="Nao">
+
+                <br><br>
+                <label for="mesInicio">Mês de início:</label><br>
+                <input type="month" id="mesInicio" name="mesInicio">
+
+                <br><br>
+                <label>Curso:</label><br>      
+                <select name="curso" id="curso">  
+                     <option></option>    
+                    <option value="espanhol">Espanhol</option>
+                    <option value="ingles">Ingles</option>
+                    <option value="italiano">Italiano</option>
+                    <option value="frances">Francês</option>
+                    <option value="mandarim">Mandarim</option>     
+                    <option value="russo">Russo</option>    
+                    <option value="alemao">Alemão</option>    
+                    <option value="japones">Japonês</option>   
+                    <option value="Libras">Libras</option>  
+                 </select>    
+
+                <br><br>   
+                <label for="nivel">Nivel de fluênica no idioma(de 0 a 10):</label><br>  
+                <input type="range" id="nivel" name="nivel" min="0" max="10" value="0">       
+                <br><br>
+
+            </fieldset>
+            
+            <input type="submit" name="btnEnviar" value="Enviar">
+
+        </form>
+    </body>
+</html>
