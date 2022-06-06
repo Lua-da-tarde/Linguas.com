@@ -35,4 +35,10 @@ h2{
 	font-size: 25px;
 	font-weight: bold;
 }
+.estilo{
+	color: rgb(124, 165, 184);
+	text-shadow: 3px 3px 3px rgb(0, 0, 0);
+	font-family: Bebas Neue;
+	font-size: 30px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Kanit:wght@300&display=swap');
