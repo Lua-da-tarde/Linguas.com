@@ -23,9 +23,10 @@ h1{
 }
 h2{
 	color: rgb(124, 165, 184);
-	text-shadow: 2px 1px 1px rgb(0, 0, 0);
+	text-shadow: 3px 3px 3px rgb(0, 0, 0);
 	font-family: Bebas Neue;
 	font-size: 40px;
+	text-indent: 30px;
 }
 .textoh3{
 	color: rgb(124, 165, 184);
