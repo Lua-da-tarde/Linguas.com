@@ -1,6 +1,7 @@
 body{
 	background-color: rgb(11, 19, 43);
 	color: whitesmoke;
+	margin: 0%;
 }
 p{
 	color: rgb(124, 165, 184);
@@ -19,12 +20,14 @@ ul{
 h1{
 	color: rgb(124, 165, 184);
 	text-shadow: 2px 1px 1px rgb(0, 0, 0);
+	font-size: 50px;
+	text-indent: 30px;
 	font-family: Kanit, sans-serif;
 }
 h2{
 	color: rgb(124, 165, 184);
 	text-shadow: 3px 3px 3px rgb(0, 0, 0);
-	font-family: Bebas Neue;
+	font-family: Bebas Neue, sans-serif;
 	font-size: 40px;
 	text-indent: 30px;
 }
@@ -62,13 +65,36 @@ h2{
 	text-shadow: 1px 1px 1px rgb(0, 0, 0);
 	transition: all, 0.2s;
 }
+.topo{
+	overflow: hidden;
+	background-color:rgb(0, 0, 0);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-transform: capitalize;
+	text-align: center;
+}
+.topo a{
+	float: left;
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: all, 0.3s;
+}
+.topo:hover{
+	background:rgb(124, 165, 184);
+	color:rgb(0, 0, 0);
+}
 .estilo{
 	color: rgb(124, 165, 184);
 	text-shadow: 3px 3px 3px rgb(0, 0, 0);
-	font-family: Bebas Neue;
+	font-family: Bebas Neue, sans-serif;
 	font-size: 30px;
 }
 .a{
 	color: rgb(72, 241, 123);
 }
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
