@@ -49,6 +49,19 @@ h2{
 	padding: 10px 20px 10px 20px;
 	margin: 10vh auto;
 }
+.daMain{
+	color: rgb(124, 165, 184);
+	background-color: rgb(0, 0, 0);
+	opacity: 0.8s;
+	border: 5px;
+	border-style: solid;
+	border-color: rgb(124, 165, 184);
+	border-radius: 2px;
+	width: 50%;
+	display: block;
+	padding: 10px 20px 10px 20px;
+	margin: 10vh auto;
+}
 .ignora{
 	border-color: rgb(124, 165, 184);
 }
