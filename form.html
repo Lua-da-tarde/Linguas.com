@@ -8,18 +8,18 @@
 	<body>
         <div class="topo">
 			<span class="letrinha">
-			<a href="main.html" style="color: rgb(255, 255, 255); font-family: Bebas Neue, sans-serif;"><b>Home</b></a>
+			<a href="main.html" style="color: rgb(255, 255, 255); font-family: Bebas Neue, sans-serif;">Home</a>
 			</span>
 			<span class="letrinha">
-			<a href="curso.html" style="color: rgb(255, 255, 255); font-family: Bebas Neue, sans-serif;"><b>Nosso curso</b></a>
+			<a href="curso.html" style="color: rgb(255, 255, 255); font-family: Bebas Neue, sans-serif;">Nosso curso</a>
 			</span>
 		</div>
 
-
         <br><br>
         <form>
+            <div class="forms">
             <fieldset>
-                <legend><h2>Dados pessoais</h2></legend>
+                <legend><span class="tituloForms">Dados pessoais</span></legend>
                 
                 <label for="nome">Nome:</label><br>
                 <input type="text" name="nome" id="nome" size="50" required>
@@ -39,12 +39,14 @@
                 <br><br>
                 <label for="senha">Senha:</label><br>
                 <input type="password" placeholder="Digite sua senha" name="senha" id="senha" minlength="8" required>    
-            </fieldset>
-            <br>
+            </fieldset></div>
+            
+            <div class="forms">
             <fieldset>
-                <legend><h2>Dados sobre o curso</h2></legend>
+                <legend><span class="tituloForms">Dados sobre o curso</span></legend>
                  
-                <label for="horario">Horario:</label><br>
+                <label for="horario">Horario:</label>
+                <br>
                 <input type="radio" name="horario" value="Manha"> Manhã 
                 <input type="radio" name="horario" value="Tarde"> Tarde 
                 <input type="radio" name="horario" value="Noite"> Noite 
@@ -78,10 +80,10 @@
                 <input type="range" id="nivel" name="nivel" min="0" max="10" value="0">       
                 <br><br>
 
-            </fieldset>
+            </fieldset></div>
 
-                <br>
-                <input type="submit" name="btnEnviar" value="Enviar">
+            <p>&nbsp&nbsp<input type="submit" name="btnEnviar" value="Enviar"></p>
+
 
         </form>
     </body>

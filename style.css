@@ -8,6 +8,7 @@ p{
 	color: rgb(124, 165, 184);
 	font-family: Dosis, sans-serif;
 	text-indent: 30px;
+	font-size: 20px;
 }
 header{
 	background-image: url(black.jpg);
@@ -17,6 +18,7 @@ header{
 ul{
 	color: rgb(124, 165, 184);
 	font-family: Dosis, sans-serif;
+	font-size: 25px;
 }
 h1{
 	color: rgb(124, 165, 184);
@@ -29,8 +31,11 @@ h2{
 	color: rgb(124, 165, 184);
 	text-shadow: 3px 3px 3px rgb(0, 0, 0);
 	font-family: Bebas Neue, sans-serif;
-	font-size: 40px;
+	font-size: 55px;
 	text-indent: 30px;
+}
+video{
+	margin-left: 2px;
 }
 
 /* DIVS DAS PAGINAS */
@@ -62,36 +67,53 @@ h2{
 	padding: 10px 20px 10px 20px;
 	margin: 10vh auto;
 }
+.curso{
+	color: rgb(124, 165, 184);
+	background-color: rgb(0, 0, 0);
+	opacity: 0.8s;
+	border: 5px;
+	border-style: solid;
+	border-color: rgb(124, 165, 184);
+	border-radius: 2px;
+	width: 34%;
+	display: block;
+	padding: 10px 20px 10px 20px;
+	margin: 10vh;
+}
+.forms{
+	color: rgb(124, 165, 184);
+	background-color: rgb(0, 0, 0);
+	opacity: 0.8s;
+	height: 360px;
+	width: 90%;
+	display: block;
+	padding: 10px 20px 10px 20px;
+	margin: 30px;
+	margin-block-start: 50px;
+}
 .ignora{
 	border-color: rgb(124, 165, 184);
 }
-.ignora2{
-	border-color: rgb(72, 241, 123);
+.borda{
+	border-color: rgb(124, 165, 184);
+	border: 2px;
 }
+
+/* CLASSES DE TEXTO */
 .tituloyeah{
 	color: rgb(124, 165, 184);
 	text-shadow: 2px 1px 1px rgb(11, 19, 43);
-	font-size: 25px;
+	font-size: 40px;
 	font-family: Kanit, sans-serif;
 	font-weight: bold;
 	text-align: center;
 }
-
-/* CLASSES DE TEXTO */
-
-.textoh3{
+.tituloForms{
 	color: rgb(124, 165, 184);
-	text-shadow: 2px 1px 1px rgb(0, 0, 0);
-	font-family: Kanit, sans-serif;
-	font-size: 25px;
-	font-weight: bold;
-	transition: color, 0.5s;
-	transition: text-shadow, 0.5s;
-}
-.textoh3:hover{
-	color: rgb(0, 0, 0);
-	text-shadow: 1px 1px 1px rgb(0, 0, 0);
-	transition: all, 0.2s;
+	text-shadow: 3px 3px 3px rgb(0, 0, 0);
+	font-family: Bebas Neue, sans-serif;
+	font-size: 50px;
+	text-indent: 30px;
 }
 .estilo{
 	color: rgb(124, 165, 184);
@@ -129,8 +151,10 @@ h2{
 }
 .letrinha{
 	color: rgb(255, 255, 255);
+	font-size: 20px;
 }
 .letrinha:hover{
+	font-size: 20px;
 	color: rgb(255, 255, 255);
 	background-color: rgb(11, 19, 43);
 	transition: all, 0.2s;
