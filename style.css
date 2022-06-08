@@ -29,7 +29,7 @@ h1{
 }
 h2{
 	color: rgb(124, 165, 184);
-	text-shadow: 3px 3px 3px rgb(0, 0, 0);
+	text-shadow: 4px 4px 4px rgb(0, 0, 0);
 	font-family: Bebas Neue, sans-serif;
 	font-size: 55px;
 	text-indent: 30px;
@@ -91,12 +91,26 @@ video{
 	margin: 30px;
 	margin-block-start: 50px;
 }
+.linguas{
+	color: rgb(124, 165, 184);
+	background-color: rgb(0, 0, 0);
+	opacity: 0.8s;
+	border: 5px;
+	border-style: solid;
+	border-color: rgb(124, 165, 184);
+	border-radius: 2px;
+	width: 80%;
+	display: block;
+	padding: 10px 20px 10px 20px;
+	margin: 3vh;
+}
 .ignora{
 	border-color: rgb(124, 165, 184);
 }
-.borda{
-	border-color: rgb(124, 165, 184);
-	border: 2px;
+.bodyLinguas{
+	background-image: url("fundoazul.jpg");
+	background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 /* CLASSES DE TEXTO */
@@ -148,6 +162,16 @@ video{
 .topo:hover{
 	background:rgb(124, 165, 184);
 	color:rgb(0, 0, 0);
+}
+.baixo{
+	overflow: hidden;
+	background-color:rgb(0, 0, 0);
+	position: fixed;
+	display: flex;
+	bottom: 0;
+	width: 100%;
+	text-transform: capitalize;
+	text-align: center;
 }
 .letrinha{
 	color: rgb(255, 255, 255);
