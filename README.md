@@ -1,1 +1,1 @@
-# Linguas.com
+# linguas.github.io
