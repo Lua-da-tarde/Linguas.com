@@ -9,7 +9,8 @@ p{
 	font-family: Dosis, sans-serif;
 	text-indent: 30px;
 	font-size: 20px;
-	margin-left: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 header{
 	background-image: url(black.jpg);
@@ -32,7 +33,7 @@ h2{
 	color: rgb(124, 165, 184);
 	text-shadow: 4px 4px 4px rgb(0, 0, 0);
 	font-family: Bebas Neue, sans-serif;
-	font-size: 55px;
+	font-size: 80px;
 	text-indent: 30px;
 	margin-top: 20px;
 }
@@ -50,7 +51,7 @@ video{
 	border-color: rgb(124, 165, 184);
 	border-radius: 2px;
 
-	width: 80%;
+	width: max-content;
 	height: 700px;
 	display: block;
 	padding: 10px 20px 10px 20px;
@@ -100,8 +101,8 @@ video{
 	color: rgb(124, 165, 184);
 	background-color: rgb(0, 0, 0);
 	opacity: 0.8s;
-	height: 420px;
-	width: 90%;
+	height:fit-content;
+	width: fit-content;
 	display: block;
 	padding: 10px 20px 10px 20px;
 	margin: 20px;
@@ -133,7 +134,7 @@ video{
 .tituloyeah{
 	color: rgb(124, 165, 184);
 	text-shadow: 2px 1px 1px rgb(11, 19, 43);
-	font-size: 40px;
+	font-size: 30px;
 	font-family: Kanit, sans-serif;
 	font-weight: bold;
 	text-align: center;
@@ -163,6 +164,7 @@ video{
 	display: flex;
 	top: 0;
 	width: 100%;
+	height: 60px;
 	text-transform: capitalize;
 	text-align: center;
 }
@@ -191,10 +193,10 @@ video{
 }
 .letrinha{
 	color: rgb(255, 255, 255);
-	font-size: 20px;
+	font-size: 25px;
 }
 .letrinha:hover{
-	font-size: 20px;
+	font-size: 25px;
 	color: rgb(255, 255, 255);
 	background-color: rgb(11, 19, 43);
 	transition: all, 0.2s;
