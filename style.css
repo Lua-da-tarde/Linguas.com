@@ -1,11 +1,12 @@
 /* COISAS */
 body{
-	background-color: rgb(11, 19, 43);
-	color: whitesmoke;
+	background-color: rgb(44, 43, 48);
+	background-image: linear-gradient(0deg, rgb(25, 25, 27), rgb(44, 43, 48), rgb(79, 79, 81));
+	color: rgb(214, 214, 214);
 	margin: 0%;
 }
 p{
-	color: rgb(124, 165, 184);
+	color: rgb(214, 214, 214);
 	font-family: Dosis, sans-serif;
 	text-indent: 30px;
 	font-size: 20px;
@@ -18,27 +19,39 @@ header{
 	width: 100%;
 }
 ul{
-	color: rgb(124, 165, 184);
+	color: rgb(242, 196, 206);
 	font-family: Dosis, sans-serif;
 	font-size: 20px;
 }
 h1{
-	color: rgb(124, 165, 184);
+	color: rgb(214, 214, 214);
 	text-shadow: 2px 1px 1px rgb(0, 0, 0);
 	font-size: 50px;
 	text-indent: 30px;
 	font-family: Kanit, sans-serif;
 }
 h2{
-	color: rgb(124, 165, 184);
+	color: rgb(214, 214, 214);
 	text-shadow: 4px 4px 4px rgb(0, 0, 0);
 	font-family: Bebas Neue, sans-serif;
-	font-size: 80px;
+	font-size: 2.5em;
 	text-indent: 30px;
 	margin-top: 20px;
 }
 video{
 	margin-left: 2px;
+}
+
+a{
+	color: rgb(245, 143, 124);
+}
+
+fieldset{
+	align-self: center;
+}
+
+a:hover{
+	color: rgb(214, 214, 214);
 }
 
 /* IMAGENS */
@@ -51,7 +64,7 @@ video{
 /* DIVS DAS PAGINAS */
 .normal{
 	color: rgb(124, 165, 184);
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(25, 25, 27);
 	opacity: 0.8s;
 	border: 5px;
 	border-style: solid;
@@ -122,9 +135,9 @@ video{
 }
 
 .daMain{
-	background-color: rgb(0, 0, 0);
-	border-top: 3px solid rgb(124, 165, 184);
-	border-bottom: 3px solid rgb(124, 165, 184);
+	background-color: rgb(25, 25, 27);
+	border-top: 3px solid rgb(245, 143, 124);
+	border-bottom: 3px solid rgb(245, 143, 124	);
 	height: 250px;
 	width:auto;
 	display: block;
@@ -135,20 +148,23 @@ video{
 	align-items: center;
 }
 .curso{
-	color: rgb(124, 165, 184);
+	color: rgb(245, 143, 124);
 	background-color: rgb(0, 0, 0);
 	opacity: 0.8s;
 	border: 4px;
 	border-style: solid;
-	border-color: rgb(124, 165, 184);
+	border-color: rgb(245, 143, 124);
 	border-radius: 2px;
-	width: max-content;
-	display: flex;
+	height: fit-content;
+	width: fit-content;
+	display: block;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
 	align-items: center;
+	
 	padding: 10px 20px 10px 20px;
-	margin: 25px;
+	margin-left: 25px;
+	
 }
 .forms{
 	color: rgb(124, 165, 184);
@@ -162,8 +178,8 @@ video{
 	margin-block-start: 50px;
 }
 .cursoDiv{
-	color: rgb(124, 165, 184);
-	background-color: rgb(0, 0, 0);
+	color: rgb(245, 143, 124);
+	background-color: rgb(18, 18, 20);
 	opacity: 0.8s;
 	height:fit-content;
 	width: fit-content;
@@ -204,7 +220,7 @@ video{
 	text-align: center;
 }
 .tituloForms{
-	color: rgb(124, 165, 184);
+	color: rgb(245, 143, 124);
 	text-shadow: 3px 3px 3px rgb(0, 0, 0);
 	font-family: Bebas Neue, sans-serif;
 	font-size: 50px;
@@ -223,7 +239,7 @@ video{
 /* HEADER NOVO */
 .topo{
 	overflow: hidden;
-	background-color:rgb(0, 0, 0);
+	background-color:rgb(18, 18, 20);
 	position: fixed;
 	display: flex;
 	top: 0;
@@ -241,10 +257,7 @@ video{
 	text-decoration: none;
 	transition: all, 0.3s;
 }
-.topo:hover{
-	background:rgb(124, 165, 184);
-	color:rgb(0, 0, 0);
-}
+
 .baixo{
 	overflow: hidden;
 	background-color:rgb(0, 0, 0);
@@ -260,10 +273,47 @@ video{
 	font-size: 25px;
 }
 .letrinha:hover{
-	font-size: 25px;
-	color: rgb(255, 255, 255);
-	background-color: rgb(11, 19, 43);
+	font-size: 2em;
+	background-color: rgb(245, 143, 124);
 	transition: all, 0.2s;
+	color: rgb(25, 25, 27);
+}
+
+@media screen and (max-width: 720px) {
+
+	body {
+		background-color: rgb(44, 43, 48);
+		background-image: linear-gradient(90deg, rgb(25, 25, 27), rgb(79, 79, 81)) fixed;
+		text-align: center;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	h2{
+		text-align: center;
+	}
+
+	video{
+		width: 100%;
+ 	 	height: auto;
+	}
+	.daMain{
+		width: 98%;
+        height: auto;
+        margin: 15px auto;
+	}
+
+	.cursoDiv{
+		text-align: center;
+		display: flex;
+	}
+
+	.curso{
+		width: auto;
+	}
+
 }
 
 /* IMPORTS */
