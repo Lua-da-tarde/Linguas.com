@@ -36,7 +36,7 @@ h2{
 	font-family: Bebas Neue, sans-serif;
 	font-size: 2.5em;
 	text-indent: 30px;
-	margin-top: 20px;
+	margin-top: 25px;
 }
 video{
 	margin-left: 2px;
@@ -63,12 +63,12 @@ a:hover{
 
 /* DIVS DAS PAGINAS */
 .normal{
-	color: rgb(124, 165, 184);
+	color: rgb(245, 143, 124);
 	background-color: rgb(25, 25, 27);
 	opacity: 0.8s;
 	border: 5px;
 	border-style: solid;
-	border-color: rgb(124, 165, 184);
+	border-color: rgb(245, 143, 124);
 	border-radius: 2px;
 
 	width: max-content;
@@ -189,20 +189,20 @@ a:hover{
 	margin-block-start: 50px;
 }
 .linguas{
-	color: rgb(124, 165, 184);
+	color: rgb(214, 214, 214);
 	background-color: rgb(0, 0, 0);
 	opacity: 0.8s;
 	border: 5px;
 	border-style: solid;
-	border-color: rgb(124, 165, 184);
+	border-color: rgb(245, 143, 124);
 	border-radius: 2px;
 	width: 80%;
 	display: block;
 	padding: 10px 20px 10px 20px;
 	margin: 3vh;
 }
-.ignora{
-	border-color: rgb(124, 165, 184);
+.bordaTable{
+	border-color: rgb(242, 196, 206);
 }
 .bodyLinguas{
 	background-image: url("fundoazul.jpg");
@@ -212,7 +212,7 @@ a:hover{
 
 /* CLASSES DE TEXTO */
 .tituloyeah{
-	color: rgb(124, 165, 184);
+	color: rgb(245, 143, 124);
 	text-shadow: 2px 1px 1px rgb(11, 19, 43);
 	font-size: 30px;
 	font-family: Kanit, sans-serif;
@@ -273,7 +273,7 @@ a:hover{
 	font-size: 25px;
 }
 .letrinha:hover{
-	font-size: 2em;
+	
 	background-color: rgb(245, 143, 124);
 	transition: all, 0.2s;
 	color: rgb(25, 25, 27);
