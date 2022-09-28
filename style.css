@@ -82,9 +82,9 @@ a:hover{
 	margin: 10vh auto;
 }
 
-.europa{
+.escuro{
 	background-color: rgb(18, 18, 20);
-	height: 450px;
+	height: 850px;
 	width:auto;
 	display: block;
 	padding: 10px 20px 10px 20px;
@@ -94,40 +94,10 @@ a:hover{
 	align-items: center;
 }
 
-.lesteAsia{
-	background-image: url(ImagensTroncos/Asia.jpg);
-	border-top: 3px solid rgb(124, 165, 184);
-	border-bottom: 3px solid rgb(124, 165, 184);
-	height: min-content;
-	width:auto;
-	display: block;
-	padding: 10px 20px 10px 20px;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.oesteAsia{
-	background-image: url(ImagensTroncos/Oeste-Asiatico.jpg);
-	border-top: 3px solid rgb(124, 165, 184);
-	border-bottom: 3px solid rgb(124, 165, 184);
-	height: max-content;
-	width:auto;
-	display: block;
-	padding: 10px 20px 10px 20px;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.afroasia{
-	background-image: url(ImagensTroncos/Arabia.jpg);
-	border-top: 3px solid rgb(124, 165, 184);
-	border-bottom: 3px solid rgb(124, 165, 184);
-	height: min-content;
-	width:auto;
+.laranja{
+	background-color: rgb(245, 143, 124);
+	height: 850px;
+	width: auto;
 	display: block;
 	padding: 10px 20px 10px 20px;
 	display: flex;
