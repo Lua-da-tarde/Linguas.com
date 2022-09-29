@@ -29,21 +29,15 @@ ul {
 	font-size: 20px;
 }
 
-h1 {
-	color: rgb(214, 214, 214);
-	text-shadow: 2px 1px 1px rgb(0, 0, 0);
-	font-size: 50px;
-	text-indent: 30px;
-	font-family: Kanit, sans-serif;
-}
-
 h2 {
+	text-align: center;
 	color: rgb(214, 214, 214);
 	text-shadow: 4px 4px 4px rgb(0, 0, 0);
 	font-family: Bebas Neue, sans-serif;
 	font-size: 4.0em;
 	text-indent: 30px;
 	margin-top: 30px;
+	
 }
 
 h3 {
@@ -51,10 +45,6 @@ h3 {
 	font-family: Bebas Neue, sans-serif;
 	font-size: 2.0em;
 	text-indent: 25px;
-}
-
-video {
-	margin-left: 2px;
 }
 
 a {
@@ -82,9 +72,11 @@ a:hover {
 
 .imagensTronco:hover {
 	opacity: 0.9;
+	-webkit-box-shadow: 2px 2px 15px 2px rgb(214, 214, 214);
 	box-shadow: 2px 2px 15px 2px rgb(214, 214, 214);
 }
 
+video,
 .imagemLinguas {
 	display: block;
 	width: 60%;
@@ -100,9 +92,16 @@ a:hover {
 
 /*Pseudoclasse:*/
 .icons:hover {
+	-webkit-transform: scale(1.1, 1.1);
+	-ms-transform: scale(1.1, 1.1);
 	transform: scale(1.1, 1.1);
+	-webkit-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
 	transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
 	transition-timing-function: ease-in-out;
+	-webkit-box-shadow: 2px 2px 15px 2px rgb(245, 143, 124);
 	box-shadow: 2px 2px 15px 2px rgb(245, 143, 124);
 }
 
@@ -181,7 +180,7 @@ a:hover {
 	flex-flow: row wrap;
 	justify-content: space-evenly;
 	align-items: center;
-	
+
 }
 
 .divModelo {
@@ -191,23 +190,10 @@ a:hover {
 	border: 5px;
 	border-style: solid;
 	border-color: rgb(245, 143, 124);
-	border-radius: 2px;
+	border-radius: 5px;
 	display: block;
 	padding: 10px 20px 10px 20px;
 	margin: 2vh;
-}
-
-/*Formatação do Form*/
-.forms {
-	color: rgb(242, 196, 206);
-	background-color: rgb(18, 18, 20);
-	opacity: 0.8s;
-	height: 360px;
-	width: 90%;
-	display: block;
-	padding: 10px 20px 10px 20px;
-	margin: 30px;
-	margin-block-start: 50px;
 }
 
 .bordaTable {
@@ -289,6 +275,8 @@ a:hover {
 .letrinha:hover {
 
 	background-color: rgb(245, 143, 124);
+	-webkit-transition: all, 0.2s;
+	-o-transition: all, 0.2s;
 	transition: all, 0.2s;
 	color: rgb(25, 25, 27);
 }
@@ -307,6 +295,11 @@ a:hover {
 		font-size: 3em;
 		text-align: center;
 		text-indent: 0%;
+	}
+
+	input{
+		width: 100%;
+		
 	}
 
 	video,
@@ -336,6 +329,7 @@ a:hover {
 		font-size: 1.8em;
 	}
 
+	
 }
 
 @media print {
@@ -343,14 +337,18 @@ a:hover {
 		background: transparent;
 		color: #000;
 		text-shadow: none;
-		filter: none;
+		-webkit-filter: none;
+		        filter: none;
 		-ms-filter: none;
+	}
+
+	.divModelo{
+		border-color: white;
 	}
 
 	.topo {
 		display: none;
 	}
-
 
 }
 
