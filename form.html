@@ -6,34 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title> Formulário - Linguas.com </title>
     <style>
-        /*Formatação do Form*/
-        .forms {
-            opacity: 0.8;
-            background-color: rgb(18, 18, 20);
-            display: block;
-            padding: 10px 20px 10px 20px;
-            margin: 30px;
-            -webkit-margin-before: 50px;
-            margin-block-start: 50px;
-            border-radius: 5px;
-            max-width: 50%;
-            padding: 10px 30px 10px 30px;
-
-        }
-
-        .forms:hover {
-            opacity: 1;
-            -webkit-transition-duration: 0.2s;
-            -o-transition-duration: 0.2s;
-            transition-duration: 0.2s;
-            -webkit-transition-timing-function: ease-in-out;
-            -o-transition-timing-function: ease-in-out;
-            transition-timing-function: ease-in-out;
-        }
-
-        .campo {
-            margin-bottom: 15px;
-        }
+       
     </style>
 </head>
 
@@ -58,58 +31,55 @@
 
                 <div class="campo">
                     <label for="nome">Nome:</label><br>
-                    <input type="text" name="nome" id="nome" size="50" required>
+                    <input type="text" name="nome" id="nome" size="50" required class="input">
                 </div>
 
                 <div class="campo">
                     <label for="dataNasc">Data de Nascimento:</label><br>
-                    <input type="date" id="dataNasc" name="dataNasc" required>
+                    <input type="date" id="dataNasc" name="dataNasc" required class="input">
                 </div>
 
                 <div class="campo">
                     <label for="telefone">Telefone para contato:</label><br>
-                    <input type="telefone" name="telefone" id="telefone" size="15" required>
+                    <input type="telefone" name="telefone" id="telefone" size="15" required class="input">
                 </div>
 
                 <div class="campo">
                     <label for="email">E-mail:</label><br>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required class="input">
                 </div>
 
                 <div class="campo">
                     <label for="senha">Senha:</label><br>
-                    <input type="password" placeholder="Digite sua senha" name="senha" id="senha" minlength="8"
-                        required>
+                    <input type="password" placeholder="Digite sua senha" name="senha" id="senha" minlength="8" required
+                        class="input">
                 </div>
             </fieldset>
-        </div>
 
-        <div class="forms">
             <fieldset>
                 <legend><span class="tituloForms">Dados sobre o curso</span></legend>
 
                 <div class="campo">
                     <label for="horario">Horario:</label>
-
-                    <input type="radio" name="horario" value="Manha"> Manhã
-                    <input type="radio" name="horario" value="Tarde"> Tarde
-                    <input type="radio" name="horario" value="Noite"> Noite
+                    <input type="checkbox" name="horario" value="Manha"> Manhã
+                    <input type="checkbox" name="horario" value="Tarde"> Tarde
+                    <input type="checkbox" name="horario" value="Noite"> Noite
                 </div>
 
                 <div class="campo">
-                    <label for="tipo">Será presencial</label><br>
+                    <label for="tipo">Será presencial: </label>
                     <input type="radio" name="tipo" value="Sim"> Sim
                     <input type="radio" name="tpo" value="Nao"> Não
                 </div>
 
                 <div class="campo">
                     <label for="mesInicio">Mês de início:</label><br>
-                    <input type="month" id="mesInicio" name="mesInicio">
+                    <input type="month" id="mesInicio" name="mesInicio" class="input">
                 </div>
 
                 <div class="campo">
                     <label>Curso:</label><br>
-                    <select name="curso" id="curso">
+                    <select name="curso" id="curso" class="input">
                         <option></option>
                         <option value="espanhol">Espanhol</option>
                         <option value="ingles">Ingles</option>
@@ -124,15 +94,17 @@
                 </div>
 
 
-                <div class="campo"> 
+                <div class="campo">
                     <label for="nivel">Nivel de fluênica no idioma:</label><br>
-                    <input type="range" id="nivel" name="nivel" min="0" max="10" value="0">
+                    <input type="range" id="nivel" name="nivel" min="0" max="10" value="0" class="input">
                 </div>
 
             </fieldset>
+
+            <button type="submit" name="btnEnviar" value="Enviar">Cadastrar</button>
         </div>
 
-        <p>&nbsp&nbsp<input type="submit" name="btnEnviar" value="Enviar"></p>
+
 
 
     </form>

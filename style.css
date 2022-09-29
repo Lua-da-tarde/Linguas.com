@@ -1,5 +1,6 @@
 /* Prefixos */
 body {
+	
 	background-color: rgb(44, 43, 48);
 	background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(25, 25, 27)), color-stop(rgb(44, 43, 48)), to(rgb(79, 79, 81)));
 	background-image: -o-linear-gradient(bottom, rgb(25, 25, 27), rgb(44, 43, 48), rgb(79, 79, 81));
@@ -55,6 +56,8 @@ fieldset {
 	-ms-flex-item-align: center;
 	-ms-grid-row-align: center;
 	align-self: center;
+	margin-bottom: 30px;
+	border-color: rgb(245, 143, 124);
 }
 
 /*Pseudoclasse:*/
@@ -82,6 +85,7 @@ video,
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
 .icons {
@@ -185,7 +189,7 @@ video,
 
 .divModelo {
 	color: rgb(242, 196, 206);
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(25, 25, 27);
 	opacity: 0.8s;
 	border: 5px;
 	border-style: solid;
@@ -281,6 +285,76 @@ video,
 	color: rgb(25, 25, 27);
 }
 
+ /*Formatação do Form*/
+ .forms {
+	opacity: 0.8;
+	background-color: rgb(18, 18, 20);
+	display: block;
+	padding: 10px 20px 10px 20px;
+	margin: 30px;
+	-webkit-margin-before: 50px;
+	margin-block-start: 50px;
+	border-radius: 5px;
+	max-width: 50%;
+	padding: 10px 30px 10px 30px;
+
+}
+
+.forms:hover {
+	opacity: 1;
+	-webkit-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+
+label {
+	font-size: 1.3em;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: rgb(214, 214, 214);
+}
+
+.campo {
+	margin-bottom: 15px;
+}
+
+.input {
+	background-color: rgb(214, 214, 214);
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+.input:hover {
+	border-color: rgb(245, 143, 124);
+}
+
+button {
+	color: rgb(18, 18, 20);
+	background-color: rgb(245, 143, 124);
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 10px, 0px, 10px, 0px;
+	border-radius: 10px;
+}
+
+button:hover {
+	-webkit-transform: scale(1.1, 1.1);
+	-ms-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+	-webkit-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+	-webkit-box-shadow: 2px 2px 15px 2px rgb(214, 214, 214);
+	box-shadow: 2px 2px 15px 2px rgb(214, 214, 214);
+}
+
 /*media query screen*/
 @media screen and (max-width: 720px) {
 
@@ -327,6 +401,10 @@ video,
 
 	.tituloForms {
 		font-size: 1.8em;
+	}
+
+	.forms{
+		max-width: 100%;
 	}
 
 	
