@@ -1,0 +1,50 @@
+Isabela Silvestre Rodrigues e Luanna Sachinelli Paggiaro
+Todas os requisitos estão reunidos no arquivo style.css
+
+PSEUDOCLASSES: 
+a:hover 
+.imagensTronco:hover
+.icons:hover
+.forms:hover 
+.letrinha:hover
+
+FORMATAÇÃO DE FORMS:
+
+BOX-SHADOW:
+.imagensTronco:hover 
+
+GRADIENTES:
+body
+
+TRANSIÇÕES:
+icons:hover
+.forms:hover
+
+ANIMAÇÕES:
+
+PREFIXOS:
+body
+fieldset
+a:hover 
+.imagensTronco:hover
+.icons:hover
+.forms:hover (arquivo form.html)
+.letrinha:hover
+
+FLEXBOX:
+Justify-content
+Flex-flow
+Display
+Align-itens
+
+UNIDADES DE MEDIDA:
+em
+vh
+%
+Presente em todas as divs do arquivo style.css
+
+MEDIA QUERY SCREEN:
+Final do arquivo style.css
+
+MEDIA QUERY PRINT:
+Final do arquivo style.css
