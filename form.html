@@ -1,81 +1,98 @@
 <html>
-    <head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="nature.png"type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="style.css">
-		<title> Linguas.com </title>
-	</head>
 
-	<body>
-        <form>
-            <div class="forms">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="nature.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Formulário - Linguas.com </title>
+</head>
+
+<body>
+    <div class="topo">
+        <span class="letrinha">
+            <a href="index.html" style="color: rgb(255, 255, 255); font-family: Bebas Neue, sans-serif;">Home</a>
+        </span>
+        <span class="letrinha">
+            <a href="tronco.html" style="color: rgb(255, 255, 255); font-family: Bebas Neue, sans-serif;">Línguas</a>
+        </span>
+        <span class="letrinha">
+            <a href="curso.html" style="color: rgb(255, 255, 255); font-family: Bebas Neue, sans-serif;">Nosso curso</a>
+        </span>
+    </div>
+
+    <br><br>
+    <form>
+        <div class="forms">
             <fieldset>
                 <legend><span class="tituloForms">Dados pessoais</span></legend>
-                
+
                 <label for="nome">Nome:</label><br>
                 <input type="text" name="nome" id="nome" size="50" required>
 
                 <br><br>
-                 <label for="dataNasc">Data de Nascimento:</label><br>
+                <label for="dataNasc">Data de Nascimento:</label><br>
                 <input type="date" id="dataNasc" name="dataNasc" required>
 
                 <br><br>
                 <label for="telefone">Telefone para contato:</label><br>
                 <input type="telefone" name="telefone" id="telefone" size="15" required>
-            
+
                 <br><br>
-                <label for="email">E-mail:</label><br>  
-                <input type="email" id="email" name="email" required> 
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required>
 
                 <br><br>
                 <label for="senha">Senha:</label><br>
-                <input type="password" placeholder="Digite sua senha" name="senha" id="senha" minlength="8" required>    
-            </fieldset></div>
-            
-            <div class="forms">
+                <input type="password" placeholder="Digite sua senha" name="senha" id="senha" minlength="8" required>
+            </fieldset>
+        </div>
+
+        <div class="forms">
             <fieldset>
                 <legend><span class="tituloForms">Dados sobre o curso</span></legend>
-                 
+
                 <label for="horario">Horario:</label>
                 <br>
-                <input type="radio" name="horario" value="Manha"> Manhã 
-                <input type="radio" name="horario" value="Tarde"> Tarde 
-                <input type="radio" name="horario" value="Noite"> Noite 
+                <input type="radio" name="horario" value="Manha"> Manhã
+                <input type="radio" name="horario" value="Tarde"> Tarde
+                <input type="radio" name="horario" value="Noite"> Noite
 
-                <br><br> 
+                <br><br>
                 <label for="tipo">Será presencial</label><br>
-                <input type="radio" name="tipo" value="Sim"> Sim 
-                <input type="radio" name="tpo" value="Nao"> Não 
+                <input type="radio" name="tipo" value="Sim"> Sim
+                <input type="radio" name="tpo" value="Nao"> Não
 
                 <br><br>
                 <label for="mesInicio">Mês de início:</label><br>
                 <input type="month" id="mesInicio" name="mesInicio">
 
                 <br><br>
-                <label>Curso:</label><br>      
-                <select name="curso" id="curso">  
-                     <option></option>    
+                <label>Curso:</label><br>
+                <select name="curso" id="curso">
+                    <option></option>
                     <option value="espanhol">Espanhol</option>
                     <option value="ingles">Ingles</option>
                     <option value="italiano">Italiano</option>
                     <option value="frances">Francês</option>
-                    <option value="mandarim">Mandarim</option>     
-                    <option value="russo">Russo</option>    
-                    <option value="alemao">Alemão</option>    
-                    <option value="japones">Japonês</option>   
-                    <option value="Libras">Libras</option>  
-                 </select>    
+                    <option value="mandarim">Mandarim</option>
+                    <option value="russo">Russo</option>
+                    <option value="alemao">Alemão</option>
+                    <option value="japones">Japonês</option>
+                    <option value="Libras">Libras</option>
+                </select>
 
-                <br><br>   
-                <label for="nivel">Nivel de fluênica no idioma:</label><br>  
-                <input type="range" id="nivel" name="nivel" min="0" max="10" value="0">       
+                <br><br>
+                <label for="nivel">Nivel de fluênica no idioma:</label><br>
+                <input type="range" id="nivel" name="nivel" min="0" max="10" value="0">
                 <br><br>
 
-            </fieldset></div>
+            </fieldset>
+        </div>
 
-            <p>&nbsp&nbsp<input type="submit" name="btnEnviar" value="Enviar"></p>
+        <p>&nbsp&nbsp<input type="submit" name="btnEnviar" value="Enviar"></p>
 
 
-        </form>
-    </body>
+    </form>
+</body>
+
 </html>

@@ -84,9 +84,9 @@ a:hover {
 	opacity: 0.9;
 }
 
-.imagemLinguas{
+.imagemLinguas {
 	height: auto;
-	width: auto;
+	width: 90%;
 }
 
 .icons {
@@ -236,7 +236,7 @@ a:hover {
 	width: 80%;
 	display: block;
 	padding: 10px 20px 10px 20px;
-	margin: 3vh;
+	margin: 2vh;
 }
 
 .bordaTable {
@@ -246,7 +246,7 @@ a:hover {
 .bodyLinguas {
 	background-image: url("fundoPreto.png");
 	background-size: 100%;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	/*background-image: linear-gradient(0deg, rgb(242, 92, 84), rgb(244, 132, 95), rgb(242, 112, 89));*/
 }
 
@@ -340,23 +340,26 @@ a:hover {
 	}
 
 	h2 {
+		font-size: 3em;
 		text-align: center;
+		text-indent: 0%;
 	}
 
 	video {
+		margin: 0%;
 		width: 100%;
 		height: auto;
 	}
 
-	.imagemLinguas{
+	.imagemLinguas {
 		height: auto;
 		width: 100%;
 	}
 
 	.daMain {
-		width: 98%;
+		width: auto;
 		height: auto;
-		margin: 15px auto;
+
 	}
 
 	.cursoDiv {
@@ -365,33 +368,35 @@ a:hover {
 	}
 
 	.curso {
+		margin: 0%;
 		width: auto;
 	}
 
-	.bodyLinguas{
+	.bodyLinguas {
 		background-size: 100%;
 		background-repeat: repeat;
 	}
 
-	.topo{
-		font-size: 0.5em;
+	.letrinha {
+		font-size: 1.4em;
+
 	}
 }
 
-@media print{
+@media print {
 	* {
 		background: transparent;
 		color: #000;
-		text-shadow: none; 
+		text-shadow: none;
 		filter: none;
-	   -ms-filter: none;
+		-ms-filter: none;
 	}
 
 	.topo {
 		display: none;
 	}
 
-	
+
 }
 
 /* IMPORTS */
