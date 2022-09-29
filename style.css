@@ -1,11 +1,14 @@
-/* COISAS */
-body{
+/* Prefixos */
+body {
 	background-color: rgb(44, 43, 48);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(25, 25, 27)), color-stop(rgb(44, 43, 48)), to(rgb(79, 79, 81)));
+	background-image: -o-linear-gradient(bottom, rgb(25, 25, 27), rgb(44, 43, 48), rgb(79, 79, 81));
 	background-image: linear-gradient(0deg, rgb(25, 25, 27), rgb(44, 43, 48), rgb(79, 79, 81));
 	color: rgb(214, 214, 214);
 	margin: 0%;
 }
-p{
+
+p {
 	color: rgb(214, 214, 214);
 	font-family: Dosis, sans-serif;
 	text-indent: 30px;
@@ -13,24 +16,28 @@ p{
 	margin-left: 10px;
 	margin-right: 10px;
 }
-header{
+
+header {
 	background-image: url(black.jpg);
 	height: 110px;
 	width: 100%;
 }
-ul{
+
+ul {
 	color: rgb(242, 196, 206);
 	font-family: Dosis, sans-serif;
 	font-size: 20px;
 }
-h1{
+
+h1 {
 	color: rgb(214, 214, 214);
 	text-shadow: 2px 1px 1px rgb(0, 0, 0);
 	font-size: 50px;
 	text-indent: 30px;
 	font-family: Kanit, sans-serif;
 }
-h2{
+
+h2 {
 	color: rgb(214, 214, 214);
 	text-shadow: 4px 4px 4px rgb(0, 0, 0);
 	font-family: Bebas Neue, sans-serif;
@@ -39,55 +46,64 @@ h2{
 	margin-top: 30px;
 }
 
-h3{
+h3 {
 	color: rgb(245, 143, 124);
 	font-family: Bebas Neue, sans-serif;
 	font-size: 2.0em;
-	text-indent: 25px;	
+	text-indent: 25px;
 }
 
-video{
+video {
 	margin-left: 2px;
 }
 
-a{
+a {
 	color: rgb(245, 143, 124);
 }
 
-fieldset{
+fieldset {
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
 	align-self: center;
 }
 
-a:hover{
+/*Pseudoclasse:*/
+a:hover {
 	color: rgb(214, 214, 214);
 }
 
 /* IMAGENS */
-.imagensTronco{
+.imagensTronco {
 	border-radius: 10px;
 	height: 350px;
 	width: 600px;
 	opacity: 1;
 }
 
-.imagensTronco:hover{
-	opacity:0.9;
+.imagensTronco:hover {
+	opacity: 0.9;
 }
 
-.icons{
+.imagemLinguas{
+	height: auto;
+	width: auto;
+}
+
+.icons {
 	border: 2px solid;
 	border-radius: 10px;
 	border-color: rgb(44, 43, 48);
 }
 
-.icons:hover{
-	transform: scale(1.1,1.1);
+/*Pseudoclasse:*/
+.icons:hover {
+	transform: scale(1.1, 1.1);
 	transition-duration: 0.2s;
 	transition-timing-function: ease-in-out;
 }
 
 /* DIVS DAS PAGINAS */
-.normal{
+.normal {
 	color: rgb(245, 143, 124);
 	background-color: rgb(25, 25, 27);
 	opacity: 0.8s;
@@ -103,10 +119,10 @@ a:hover{
 	margin: 10vh auto;
 }
 
-.escuro{
+.escuro {
 	background-color: rgb(18, 18, 20);
 	height: 850px;
-	width:auto;
+	width: auto;
 	display: block;
 	padding: 10px 20px 10px 20px;
 	display: flex;
@@ -115,10 +131,10 @@ a:hover{
 	align-items: center;
 }
 
-.escuro2{
+.escuro2 {
 	background-color: rgb(18, 18, 20);
 	height: 500px;
-	width:auto;
+	width: auto;
 	display: block;
 	padding: 10px 20px 10px 20px;
 	display: flex;
@@ -127,7 +143,7 @@ a:hover{
 	align-items: center;
 }
 
-.laranja{
+.laranja {
 	background-color: rgb(245, 143, 124);
 	height: 850px;
 	width: auto;
@@ -139,7 +155,7 @@ a:hover{
 	align-items: center;
 }
 
-.laranja2{
+.laranja2 {
 	background-color: rgb(245, 143, 124);
 	height: 500px;
 	width: auto;
@@ -151,12 +167,12 @@ a:hover{
 	align-items: center;
 }
 
-.daMain{
+.daMain {
 	background-color: rgb(25, 25, 27);
 	/*border-top: 3px solid rgb(245, 143, 124);
 	border-bottom: 3px solid rgb(245, 143, 124	);*/
 	height: 300px;
-	width:auto;
+	width: auto;
 	display: block;
 	padding: 10px 20px 10px 20px;
 	display: flex;
@@ -164,7 +180,8 @@ a:hover{
 	justify-content: space-evenly;
 	align-items: center;
 }
-.curso{
+
+.curso {
 	color: rgb(245, 143, 124);
 	background-color: rgb(0, 0, 0);
 	opacity: 0.8s;
@@ -178,12 +195,13 @@ a:hover{
 	flex-flow: row wrap;
 	justify-content: space-evenly;
 	align-items: center;
-	
+
 	padding: 10px 20px 10px 20px;
 	margin-left: 25px;
-	
+
 }
-.forms{
+
+.forms {
 	color: rgb(124, 165, 184);
 	background-color: rgb(0, 0, 0);
 	opacity: 0.8s;
@@ -194,18 +212,20 @@ a:hover{
 	margin: 30px;
 	margin-block-start: 50px;
 }
-.cursoDiv{
+
+.cursoDiv {
 	color: rgb(245, 143, 124);
 	background-color: rgb(18, 18, 20);
 	opacity: 0.8s;
-	height:fit-content;
+	height: fit-content;
 	width: fit-content;
 	display: block;
 	padding: 10px 20px 10px 20px;
 	margin: 20px;
 	margin-block-start: 50px;
 }
-.linguas{
+
+.linguas {
 	color: rgb(214, 214, 214);
 	background-color: rgb(0, 0, 0);
 	opacity: 0.8s;
@@ -218,18 +238,20 @@ a:hover{
 	padding: 10px 20px 10px 20px;
 	margin: 3vh;
 }
-.bordaTable{
+
+.bordaTable {
 	border-color: rgb(242, 196, 206);
 }
-.bodyLinguas{
-	/*background-image: url("fundoPreto.png");
+
+.bodyLinguas {
+	background-image: url("fundoPreto.png");
 	background-size: 100%;
-    background-repeat: no-repeat;*/
-	background-image: linear-gradient(0deg, rgb(242, 92, 84), rgb(244, 132, 95), rgb(242, 112, 89));
+    background-repeat: no-repeat;
+	/*background-image: linear-gradient(0deg, rgb(242, 92, 84), rgb(244, 132, 95), rgb(242, 112, 89));*/
 }
 
 /* CLASSES DE TEXTO */
-.tituloyeah{
+.tituloyeah {
 	color: rgb(245, 143, 124);
 	text-shadow: 2px 1px 1px rgb(11, 19, 43);
 	font-size: 30px;
@@ -237,27 +259,30 @@ a:hover{
 	font-weight: bold;
 	text-align: center;
 }
-.tituloForms{
+
+.tituloForms {
 	color: rgb(245, 143, 124);
 	text-shadow: 3px 3px 3px rgb(0, 0, 0);
 	font-family: Bebas Neue, sans-serif;
 	font-size: 50px;
 	text-indent: 30px;
 }
-.estilo{
+
+.estilo {
 	color: rgb(124, 165, 184);
 	text-shadow: 3px 3px 3px rgb(0, 0, 0);
 	font-family: Bebas Neue, sans-serif;
 	font-size: 30px;
 }
-.a{
+
+.a {
 	color: rgb(72, 241, 123);
 }
 
 /* HEADER NOVO */
-.topo{
+.topo {
 	overflow: hidden;
-	background-color:rgb(18, 18, 20);
+	background-color: rgb(18, 18, 20);
 	position: fixed;
 	display: flex;
 	top: 0;
@@ -266,7 +291,8 @@ a:hover{
 	text-transform: capitalize;
 	text-align: center;
 }
-.topo a{
+
+.topo a {
 	float: left;
 	display: block;
 	color: rgb(0, 0, 0);
@@ -276,9 +302,9 @@ a:hover{
 	transition: all, 0.3s;
 }
 
-.baixo{
+.baixo {
 	overflow: hidden;
-	background-color:rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0);
 	position: fixed;
 	display: flex;
 	bottom: 0;
@@ -286,17 +312,21 @@ a:hover{
 	text-transform: capitalize;
 	text-align: center;
 }
-.letrinha{
+
+.letrinha {
 	color: rgb(255, 255, 255);
 	font-size: 25px;
 }
-.letrinha:hover{
-	
+
+/*Pseudoclasse:*/
+.letrinha:hover {
+
 	background-color: rgb(245, 143, 124);
 	transition: all, 0.2s;
 	color: rgb(25, 25, 27);
 }
 
+/*media query screen*/
 @media screen and (max-width: 720px) {
 
 	body {
@@ -305,33 +335,51 @@ a:hover{
 		text-align: center;
 	}
 
-	h1{
+	h1 {
 		text-align: center;
 	}
 
-	h2{
+	h2 {
 		text-align: center;
 	}
 
-	video{
+	video {
 		width: 100%;
- 	 	height: auto;
-	}
-	.daMain{
-		width: 98%;
-        height: auto;
-        margin: 15px auto;
+		height: auto;
 	}
 
-	.cursoDiv{
+	.imagemLinguas{
+		height: auto;
+		width: 100%;
+	}
+
+	.daMain {
+		width: 98%;
+		height: auto;
+		margin: 15px auto;
+	}
+
+	.cursoDiv {
 		text-align: center;
 		display: flex;
 	}
 
-	.curso{
+	.curso {
 		width: auto;
 	}
 
+	.bodyLinguas{
+		background-size: 100%;
+		background-repeat: repeat;
+	}
+
+	.topo{
+		font-size: 0.5em;
+	}
+}
+
+@media print{
+	
 }
 
 /* IMPORTS */
