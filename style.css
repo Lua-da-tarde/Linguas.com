@@ -67,12 +67,23 @@ a:hover{
 	border-radius: 10px;
 	height: 350px;
 	width: 600px;
+	opacity: 1;
+}
+
+.imagensTronco:hover{
+	opacity:0.9;
 }
 
 .icons{
 	border: 2px solid;
-	border-radius: 0px;
+	border-radius: 10px;
 	border-color: rgb(44, 43, 48);
+}
+
+.icons:hover{
+	transform: scale(1.1,1.1);
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
 }
 
 /* DIVS DAS PAGINAS */
@@ -211,9 +222,10 @@ a:hover{
 	border-color: rgb(242, 196, 206);
 }
 .bodyLinguas{
-	background-image: url("fundoPreto.png");
+	/*background-image: url("fundoPreto.png");
 	background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+	background-image: linear-gradient(0deg, rgb(242, 92, 84), rgb(244, 132, 95), rgb(242, 112, 89));
 }
 
 /* CLASSES DE TEXTO */
