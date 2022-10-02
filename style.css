@@ -321,7 +321,7 @@ label {
 }
 
 .input {
-	background-color: rgb(214, 214, 214);
+	background-color: rgb(138, 138, 141);
 	width: 100%;
 	height: 30px;
 	margin-top: 5px;
@@ -330,6 +330,7 @@ label {
 
 .input:hover {
 	border-color: rgb(245, 143, 124);
+	background-color: rgb(214, 214, 214);
 }
 
 button {
@@ -345,14 +346,14 @@ button:hover {
 	-webkit-transform: scale(1.1, 1.1);
 	-ms-transform: scale(1.1, 1.1);
 	transform: scale(1.1, 1.1);
-	-webkit-transition-duration: 0.2s;
-	-o-transition-duration: 0.2s;
-	transition-duration: 0.2s;
-	-webkit-transition-timing-function: ease-in-out;
-	-o-transition-timing-function: ease-in-out;
-	transition-timing-function: ease-in-out;
-	-webkit-box-shadow: 2px 2px 15px 2px rgb(214, 214, 214);
-	box-shadow: 2px 2px 15px 2px rgb(214, 214, 214);
+	-webkit-transition-duration: 0.1s;
+	-o-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+	-webkit-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	-webkit-box-shadow: 2px 2px 15px 2px rgb(138, 138, 141);
+	box-shadow: 2px 2px 15px 2px rgb(138, 138, 141);
 }
 
 /*media query screen*/
