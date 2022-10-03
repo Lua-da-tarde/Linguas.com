@@ -52,6 +52,25 @@ ul {
 	color: rgb(242, 196, 206);
 	font-family: Dosis, sans-serif;
 	font-size: 20px;
+	position: relative;
+}
+
+li:hover{
+	animation: vaiprolado 1s;
+	position: relative;
+	/*-webkit-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;*/
+}
+
+@keyframes vaiprolado{
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 40px; /* eu sou uma sofredora pfv nao*/
+    }
 }
 
 h2 {
