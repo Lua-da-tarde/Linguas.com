@@ -18,6 +18,15 @@ p {
 	margin-right: 10px;
 }
 
+h3{
+	color: rgb(214, 214, 214);
+	font-family: Dosis, sans-serif;
+	text-indent: 30px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 footer{
 	background-color: rgb(44, 43, 48);
 	border-top: 1px solid rgb(71, 71, 73);
