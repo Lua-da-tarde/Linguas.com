@@ -8,4 +8,4 @@ Confira aqui o site <https://lua-da-tarde.github.io/linguas.com/> ou veja as ima
 ![Línguas Germânicas](https://github.com/Lua-da-tarde/linguas.com/blob/main/imgs/fotosDoSite/site3.png)
 ![Nosso Curso](https://github.com/Lua-da-tarde/linguas.com/blob/main/imgs/fotosDoSite/site4.png)
 ![Forms de inscrição](https://github.com/Lua-da-tarde/linguas.com/blob/main/imgs/fotosDoSite/site5.png)  
-Feito por Luanna Sachinelli Paggiaro (Lua-da-tarde no GitHub), Isabela Silvestre Rodrigues (Gs1lver no GitHub) e Catarina Fagotti Bonifácio (Catarina-de-PD no GitHub).
+Feito por Luanna Sachinelli Paggiaro ([Lua-da-tarde](https://github.com/Lua-da-tarde) no GitHub), Isabela Silvestre Rodrigues ([Gs1lver](https://github.com/Gs1lver) no GitHub) e Catarina Fagotti Bonifácio ([Catarina-de-PD](https://github.com/Catarina-de-PD) no GitHub).
